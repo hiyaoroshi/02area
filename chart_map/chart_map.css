@@ -1,0 +1,86 @@
+/* 人口動態時系列データ2017年版付属DVD
+チャート、マップ表示用スタイルシート
+R01 2017.01.30 一般財団法人 厚生労働統計協会*/
+
+
+.outerdiv{
+	width		: 100%;
+}
+
+.titlediv{
+	font-size	: 20px;
+	font-weight: bold;
+	margin-top	: 12px;
+	margin-left	: 10px;
+	margin-right: 0px;
+	padding		: 0px 5px;
+	border-top	: double;
+	border-bottom	: double;
+	line-height	: 150%;
+	color		: #000000;
+	background-color: #FCD5B4;
+}
+
+.maindiv{
+	font-size	: 16px;
+	font-weight: bold;
+	margin-top	: 12px;
+	margin-left	: 10px;
+	margin-right: 0px;
+	padding		: 0px 5px;
+	line-height	: 120%;
+	color		: #000000;
+	background-color: #DCE6F1;
+}
+
+.detaildiv {
+	margin-top	: 4px;
+	margin-left	: 10px;
+	padding		: 0px 5px;
+	font-size	: 14px;
+	color		: #000000;
+	background-color: #DCE6F1
+}
+
+.selectiondiv{
+	height:		: 50px;
+	font-size	: 16px;
+	margin-top	: 12px;
+	margin-left	: 10px;
+	margin-right: 0px;
+	padding		: 0px 5px;
+}
+
+#sChartdiv {
+	height		: 600px;
+	margin-top	: 12px;
+	margin-left	: 10px;
+	margin-right: 0px;
+	padding		: 0px 5px;
+}
+
+#cChartdiv {
+	height		: 600px;
+	margin-top	: 12px;
+	margin-left	: 10px;
+	margin-right: 0px;
+	padding		: 0px 5px;
+}
+
+#mapdiv {
+	height		: 1000px;
+	width		: 600px;;
+	margin-top	: 12px;
+	margin-left	: 10px;
+	margin-right: 0px;
+	padding		: 0px 5px;
+}
+
+.footerdiv {
+	margin-top	: 12px;
+	margin-left	: 10px;
+	margin-right: 0px;
+	padding		: 0px 5px;
+	font-size	:14px;
+}
+

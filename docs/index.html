@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>2017年度 地域医療調査研究 1.0 厚生労働統計協会 20170609</title>
+<link rel="stylesheet" href="../chart_map/chart_map.css">
+<style>
+</style>
+</head>
+
+<body>
+<div class="outerdiv">
+
+  <div class="titlediv">
+     <b>02 在宅医療・介護連携指標 小地域比較</b><br/>
+  </div>
+
+  <div class="detaildiv">
+     &nbsp;・指標データセット名、表示種別、在宅医療・介護指標を選択します
+     <br/>&nbsp;・指標データセットファイルにあらかじめ準備しておいたデータが表示されます
+     <a href="./出典情報.pdf" target="_blank">出典情報</a>
+  </div>
+
+  <div class="selectiondiv">
+      
+      &nbsp;&nbsp;指標データセット名：
+      <select id="idxSet" size=1 style="width: 150px">
+      </select>
+      
+      &nbsp;&nbsp;表示種別:
+      <select id="dispType" size=1 style="width: 100px">
+      </select>
+      
+      <br/>在宅医療・介護指標：
+      <select id="idx" size=1 style="width: 300px">
+      </select>
+      
+      <label for="idx2">&nbsp;&nbsp;在宅医療・介護指標2：</label>
+      <select id="idx2" size=1 style="width: 300px">
+      </select>
+
+      <br/>
+
+  </div>
+
+  <div id="cChartdiv">
+  </div>
+
+</div>
+    
+<script src="../jquery/jquery-1.12.4.min.js"></script>
+
+<script src="../amcharts/amcharts.js"></script>
+<script src="../amcharts/serial.js"></script>
+<script src="../amcharts/xy.js"></script>
+<script src="../amcharts/themes/light.js"></script>
+
+<script src="../chart_map/chart_map.js" charset="Shift_JIS"></script>
+<script src="../chart_map/parms.js" charset="Shift_JIS"></script>
+
+<script src="../amcharts/plugins/export/export.js"></script>
+<link rel="stylesheet" href="../amcharts/plugins/export/export.css" type="text/css" media="all" />
+
+<script src="../02area_comp.js" charset="Shift_JIS"></script>
+
+</body>
+</html>
+
